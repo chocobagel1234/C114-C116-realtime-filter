@@ -2,6 +2,21 @@ body {
     text-align: center;
 }
 
+@keyframes example {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
+
+canvas {
+    top: 230px !important;
+    border-radius: 15px !important;
+    transform: scaleX(-1) !important;
+    -o-transform : scaleX(-1) !important;
+    -moz-transform : scaleX(-1) !important;
+    -webkit-transform : scaleX(-1) !important;
+    -ms-transform: scaleX(-1) !important;
+}
+
 .footer {
     background-color: #344453;
     color: white;
